@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM0OYgIBfJmV/IZzgQ+okeL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mayankjamindaruk/Machine_Learning_Bootcamp/blob/master/USA%20Cancer%20Prediction%20Model\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iC6ZWPW25fz4"
+      },
+      "source": [
+        "# the below code is for displaying the output from all lines of python code within a single cell\r\n",
+        "from IPython.core.interactiveshell import InteractiveShell\r\n",
+        "InteractiveShell.ast_node_interactivity = \"all\"\r\n",
+        "\r\n",
+        "# A fundamental package for linear algebra and multidimensional arrays\r\n",
+        "import pandas as pd                  \r\n",
+        "\r\n",
+        "# Data analysis and data manipulating tool\r\n",
+        "import numpy as np                   \r\n",
+        "\r\n",
+        "# Library to generate random numbers\r\n",
+        "import random                        \r\n",
+        "\r\n",
+        "# Collection is a Python module that implements specialized container datatypes providing \r\n",
+        "# Counter is a dict subclass for counting hashable objects\r\n",
+        "from collections import Counter      \r\n",
+        "                                     \r\n",
+        "# Visualization libraries\r\n",
+        "import matplotlib.pyplot as plt\r\n",
+        "import seaborn as sns\r\n",
+        "\r\n",
+        "# To ignore warnings in the notebook\r\n",
+        "import warnings\r\n",
+        "warnings.filterwarnings(\"ignore\")\r\n",
+        "\r\n",
+        "# to display up to 500 rows in the output of the jupyter notebook cell\r\n",
+        "pd.set_option('display.max_rows', 500)"
+      ],
+      "execution_count": 1,
+      "outputs": []
+    }
+  ]
+}
